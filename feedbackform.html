@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form of South Indian Tourism</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap");
+        *{
+            margin: 0%;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+            scroll-behavior: smooth;
+            font-weight: bolder;
+        }
+        input{
+            border-style: dashed;
+            outline: none;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 20px;
+            
+        }
+        label{
+            color: cyan;
+            font-size: 30px;
+        }
+        select{
+            padding: 20px;
+            margin: 10px;
+            border-style: dashed;
+            border-radius: 20px;
+        }
+        option{
+            padding: 100px;
+        }
+        textarea{
+            border-style: dashed;
+            outline: none;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 20px;
+            /* background-color: black; */
+        }
+        button{
+            width: 100px;
+            height: 50px;
+            border-radius: 20px;
+            background-color: green;
+            margin-left: 10rem;
+            border-style: dashed;
+            border-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-image: url(https://www.deanza.edu/webteam/images/dark-bg-2-wt.jpg); height: 61rem;">
+        <header>
+            <h1 style="text-align: center; text-transform: uppercase; color:cyan;">Feedback Form</h1>
+        </header>
+        <form action="" style="padding: 20px;">
+            <label for="name" >Full Name:</label>
+            <input type="text" placeholder="First name" required id="input">
+            <input type="text" placeholder="Last name" required>
+            <br><br>
+            <label for="email">Registered Email ID</label>
+            <input type="email" placeholder="Email" required>
+            <br><br>
+            <label for="stars">Overall Satisfaction</label>
+            <input type="number" placeholder="Choose _/5">
+            <br><br>
+            <label for="">How about the Tour</label>
+            <select name="" id="">
+                <option value="">Excellant</option>
+                <option value="">Good</option>
+                <option value="">Better</option>
+                <option value="">Improve</option>
+                <option value="">Terrible</option>
+            </select>
+            <br>
+            <br>
+            <label for="">How can we improve to serve you better</label>
+            <br><br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Give your comments"></textarea>
+            <br><br>
+            <button id="submit">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
